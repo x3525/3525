@@ -123,8 +123,8 @@ root
 ## SUID
 
 ```shell
-root@ubuntu:~# chmod 4777 "$(which bash)"
-root@ubuntu:~# ls -l "$(which bash)"
+root@ubuntu:~# chmod 4777 "$(command -v bash)"
+root@ubuntu:~# ls -l "$(command -v bash)"
 ```
 
 ```output title="Output"
